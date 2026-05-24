@@ -18718,7 +18718,7 @@ Error generating stack: ` +
         description: "A joyful morning of haldi, blessings and laughter",
         day: "SUN",
         date: "July 5, 2026",
-        time: "03:00 PM onwards",
+        time: "02:30 PM onwards",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
         dressCode: "Yellow florals — bright, breezy and traditional",
         icon: "🌼",
@@ -18731,7 +18731,7 @@ Error generating stack: ` +
         description: "A spirited night of song, dance and laughter",
         day: "SUN",
         date: "July 5, 2026",
-        time: "07:30 PM onwards",
+        time: "08:00 PM onwards",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
         dressCode:
           "Traditional festive — vibrant colours and twinkling embroidery",
@@ -18745,7 +18745,7 @@ Error generating stack: ` +
         description: "The sacred seven vows under the mandap",
         day: "MON",
         date: "July 6, 2026",
-        time: "12:0 PM",
+        time: "12:00 PM onwards",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
         dressCode: "Indian formal — silks, sherwanis and timeless elegance",
         icon: "💍",
@@ -18758,7 +18758,7 @@ Error generating stack: ` +
         description: "The exchange of garlands and a joyous celebration",
         day: "MON",
         date: "July 6, 2026",
-        time: "08:00 PM",
+        time: "08:00 PM onwards",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
         dressCode: "Indian formal — elegant and festive",
         icon: "🌸",
@@ -19265,7 +19265,7 @@ Error generating stack: ` +
           }),
         ],
       }),
-    SE = ({ play: e, src: t = "./audio/background.mp3" }) => {
+    SE = ({ play: e, src: t = "./BGMusic.mp3" }) => {
       const n = S.useRef(null),
         [r, o] = S.useState(!1);
       return (
@@ -19285,7 +19285,11 @@ Error generating stack: ` +
                 "aria-label": r
                   ? "Unmute background music"
                   : "Mute background music",
-                onClick: () => o((i) => !i),
+                onClick: () => {
+                  const i = n.current;
+                  i && (r ? e && i.play().catch(() => {}) : i.pause());
+                  o(!r);
+                },
                 className:
                   "fixed bottom-5 right-5 z-50 h-11 w-11 rounded-full bg-foreground/80 text-cream backdrop-blur shadow-elegant flex items-center justify-center hover:scale-105 transition",
                 children: r

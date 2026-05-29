@@ -19360,7 +19360,7 @@ Error generating stack: ` +
         className: "relative",
         children: [
           w.jsx(wE, {}),
-          e && w.jsx(xE, {}),
+          // e && w.jsx(xE, {}),
           w.jsx(SE, { play: n || e }),
           e ? w.jsx(vE, {}) : w.jsx(qS, { onOpen: o, opening: n }),
         ],

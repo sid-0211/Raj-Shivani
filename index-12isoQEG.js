@@ -19133,26 +19133,31 @@ Error generating stack: ` +
           w.jsx("span", {
             className:
               "pointer-events-none absolute top-6 left-4 text-4xl opacity-20",
-            children: "🌿",
+            children: "",
+            // children: "🌿",
           }),
           w.jsx("span", {
             className:
               "pointer-events-none absolute top-12 right-6 text-3xl opacity-20",
-            children: "🌸",
+            // children: "🌸",
+              children: "",
           }),
           w.jsx("span", {
             className:
               "pointer-events-none absolute bottom-10 left-10 text-3xl opacity-20",
-            children: "🌼",
+            // children: "🌼",
+            children: "",
           }),
           w.jsx("span", {
             className:
               "pointer-events-none absolute bottom-6 right-4 text-4xl opacity-20",
-            children: "🌿",
+            // children: "🌿",
+            children: "",
           }),
         ],
       }),
-    mf = ["🌸", "🌸", "🌿", "🌸", "🌼", "🌿", "🌸"],
+    //mf = ["🌸", "🌸", "🌿", "🌸", "🌼", "🌿", "🌸"],
+      mf = ["", "", "", "", "", "", ""],
     wE = ({ count: e = 18 }) =>
       w.jsx("div", {
         className: "pointer-events-none fixed inset-0 z-10 overflow-hidden",

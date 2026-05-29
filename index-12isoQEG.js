@@ -17705,8 +17705,8 @@ Error generating stack: ` +
     oE = "./bg-gavdev-groom-new-6jrcX2vp.jpg",
     iE = "./couple-haldi-CsWjfUdv.png",
     sE = "./couple-sapthapadi-Zvu2FEVx.png",
-    lE = "./couple-gavdev-DxDeDDBt.png",
-    aE = "./couple-varmala-DBCWuEXF.png",
+    lE = "./couple-ganesh-poojan.png",
+    aE = "./couple-varmala-reception.png",
     uE = "./couple-sangeet-D3VSf4cb.png",
     cE = new Date("2026-07-06T00:00:00+05:30").getTime(),
     hf = () => {

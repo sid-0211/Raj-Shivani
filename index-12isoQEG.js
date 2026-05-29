@@ -17710,6 +17710,7 @@ Error generating stack: ` +
     uE = "./couple-sangeet-D3VSf4cb.png",
     abc = "./rajmahal-resort.png",
     ghodi = "./ghodi.png",
+    phere = "./phere-png.png",
     cE = new Date("2026-07-06T00:00:00+05:30").getTime(),
     hf = () => {
       const e = Math.max(0, cE - Date.now());
@@ -18780,7 +18781,7 @@ Error generating stack: ` +
         icon: "💍",
         bg: nE,
         dark: !0,
-        couple: sE,
+        couple: phere,
       },
       {
         title: "Reception & Varmala",

@@ -18566,7 +18566,7 @@ Error generating stack: ` +
               v.addColorStop(1, "#b8853f"),
               (p.fillStyle = v),
               p.fillRect(0, 0, h.width, h.height),
-              (p.fillStyle = "rgba(255,255,255,0.5)"),
+              (p.fillStyle = "rgba(255,255,255,0.8)"),
               (p.font = '600 14px "Cinzel", serif'),
               (p.textAlign = "center"),
               (p.textBaseline = "middle"),

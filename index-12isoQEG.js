@@ -18566,7 +18566,7 @@ Error generating stack: ` +
               v.addColorStop(1, "#b8853f"),
               (p.fillStyle = v),
               p.fillRect(0, 0, h.width, h.height),
-              (p.fillStyle = "rgba(255,255,255,0.35)"),
+              (p.fillStyle = "rgba(255,255,255,0.5)"),
               (p.font = '600 14px "Cinzel", serif'),
               (p.textAlign = "center"),
               (p.textBaseline = "middle"),
@@ -18991,7 +18991,12 @@ Error generating stack: ` +
                     className: "mt-10",
                     children: w.jsx(yE, {
                       title: "Awaiting your Gracious Presence",
-                      names: ["Mr. Vasudev Alwani","Mrs. Parwati Alwani","Mr. Vijay Alwani", "Mrs. Pooja Alwani"],
+                      names: [
+                        "Mr. Vasudev Alwani",
+                        "Mrs. Parwati Alwani",
+                        "Mr. Vijay Alwani",
+                        "Mrs. Pooja Alwani",
+                      ],
                     }),
                   }),
                 ],
@@ -19140,7 +19145,7 @@ Error generating stack: ` +
             className:
               "pointer-events-none absolute top-12 right-6 text-3xl opacity-20",
             // children: "🌸",
-              children: "",
+            children: "",
           }),
           w.jsx("span", {
             className:
@@ -19157,7 +19162,7 @@ Error generating stack: ` +
         ],
       }),
     //mf = ["🌸", "🌸", "🌿", "🌸", "🌼", "🌿", "🌸"],
-      mf = ["", "", "", "", "", "", ""],
+    mf = ["", "", "", "", "", "", ""],
     wE = ({ count: e = 18 }) =>
       w.jsx("div", {
         className: "pointer-events-none fixed inset-0 z-10 overflow-hidden",
@@ -19297,7 +19302,6 @@ Error generating stack: ` +
           }),
         ],
       }),
-
     SE = ({ play: e, src: t = "./BGMusic.mp3" }) => {
       const n = S.useRef(null),
         [r, o] = S.useState(!1);

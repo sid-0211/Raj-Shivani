@@ -17709,6 +17709,7 @@ Error generating stack: ` +
     aE = "./couple-varmala-reception.png",
     uE = "./couple-sangeet-D3VSf4cb.png",
     abc = "./rajmahal-resort.png",
+    ghodi = "./ghodi.png",
     cE = new Date("2026-07-06T00:00:00+05:30").getTime(),
     hf = () => {
       const e = Math.max(0, cE - Date.now());
@@ -18766,7 +18767,7 @@ Error generating stack: ` +
         icon: "🕺🏼",
         bg: abc,
         dark: !0,
-        couple: iE,
+        couple: ghodi,
       },
       {
         title: "Shubh Lagna & Phere",

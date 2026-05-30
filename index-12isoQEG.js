@@ -17709,8 +17709,9 @@ Error generating stack: ` +
     aE = "./couple-varmala-reception.png",
     uE = "./couple-sangeet-D3VSf4cb.png",
     abc = "./rajmahal-resort.png",
-    ghodi = "./ghodi.png",
+    ghodi = "./ghodi-zoomout1.png",
     phere = "./phere-png.png",
+    sofa = "./withsofa.png",
     cE = new Date("2026-07-06T00:00:00+05:30").getTime(),
     hf = () => {
       const e = Math.max(0, cE - Date.now());
@@ -18727,7 +18728,7 @@ Error generating stack: ` +
         icon: "🌼",
         bg: tE,
         dark: !0,
-        couple: iE,
+        couple: sofa,
       },
       // {
       //   title: "Sangeet",
@@ -18878,7 +18879,11 @@ Error generating stack: ` +
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80 pb-12",
-                    children: ["D/o Mr. Sunil Datt Rawal", w.jsx("br", {}), ""],
+                    children: [
+                      "D/o Mr. Sunil Datt Rawal",
+                      w.jsx("br", {}),
+                      "& Mrs. Vinita Rawal",
+                    ],
                   }),
                 ],
               }),

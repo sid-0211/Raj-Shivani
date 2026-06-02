@@ -18795,7 +18795,7 @@ Error generating stack: ` +
         icon: "🌸",
         bg: rE,
         dark: !0,
-        couple: aE,
+        couple: lE,
       },
     ],
     vE = () => {

@@ -17709,7 +17709,7 @@ Error generating stack: ` +
     aE = "./couple-varmala-reception.png",
     uE = "./couple-sangeet-D3VSf4cb.png",
     abc = "./rajmahal-resort.png",
-    ghodi = "./ghodi-zoomout1.png",
+    ghodi = "./baraat.png",
     phere = "./phere-png.png",
     sofa = "./withsofa.png",
     cE = new Date("2026-07-06T00:00:00+05:30").getTime(),

@@ -17771,6 +17771,7 @@ Error generating stack: ` +
       date: r,
       time: o,
       venue: i,
+      dressCode: h,
       bg: s,
       couple: l,
       tint: a = "bg-cream",
@@ -17880,6 +17881,20 @@ Error generating stack: ` +
                             }),
                           ],
                         }),
+                        e === "Haldi Carnival" &&
+                          h &&
+                          w.jsxs("div", {
+                            children: [
+                              w.jsx("div", {
+                                className: `font-cinzel text-sm ${x}`,
+                                children: "Dress Code",
+                              }),
+                              w.jsx("div", {
+                                className: `font-serif-display text-lg mt-1 ${g}`,
+                                children: h,
+                              }),
+                            ],
+                          }),
                       ],
                     }),
                   ],
@@ -18723,9 +18738,8 @@ Error generating stack: ` +
         day: "SUN",
         date: "July 5, 2026",
         time: "02:30 PM onwards",
-        venue:
-          "Rajmahal Resort, Nagda Bypass Road, Ujjain\nTheme : Beige Color",
-        dressCode: "Yellow florals — bright, breezy and traditional",
+        venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
+        dressCode: "Theme : Beige Color — light, earthy and festive",
         icon: "🌼",
         bg: tE,
         dark: !0,

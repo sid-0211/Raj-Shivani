@@ -18723,7 +18723,8 @@ Error generating stack: ` +
         day: "SUN",
         date: "July 5, 2026",
         time: "02:30 PM onwards",
-        venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
+        venue:
+          "Rajmahal Resort, Nagda Bypass Road, Ujjain \n Theme : Beige Color",
         dressCode: "Yellow florals — bright, breezy and traditional",
         icon: "🌼",
         bg: tE,

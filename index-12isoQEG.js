@@ -19100,6 +19100,10 @@ Error generating stack: ` +
                 className:
                   "mt-3 font-cinzel text-xs tracking-widest text-cream/70",
                 children: "#RAJSHIVANI",
+                children: w.jsx("span", {
+                  className: "ml-1 text-gold-soft/70",
+                  children: "Made with love By Siddharth",
+                }),
               }),
             ],
           }),

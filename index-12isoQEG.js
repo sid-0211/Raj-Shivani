@@ -17902,7 +17902,7 @@ Error generating stack: ` +
                                             className:
                                               "inline-block h-5 w-5 rounded-full mx-1 align-middle border border-white/60",
                                             style: {
-                                              backgroundColor: "#F5F5DC",
+                                              backgroundColor: "#E8D8C3",
                                             },
                                           },
                                           "beige-circle",

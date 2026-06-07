@@ -17706,6 +17706,7 @@ Error generating stack: ` +
     iE = "./couple-haldi-CsWjfUdv.png",
     sE = "./couple-sapthapadi-Zvu2FEVx.png",
     lE = "./couple-ganesh-poojan.png",
+    gpgp = "./GP.png",
     aE = "./couple-varmala-reception.png",
     uE = "./couple-sangeet-D3VSf4cb.png",
     abc = "./rajmahal-resort.png",
@@ -18730,7 +18731,7 @@ Error generating stack: ` +
         icon: "🛕",
         bg: oE,
         dark: !0,
-        couple: lE,
+        couple: gpgp,
       },
       {
         title: "Haldi Carnival",
@@ -19093,17 +19094,12 @@ Error generating stack: ` +
                 ],
               }),
               w.jsx("p", {
-                className: "font-serif-display text-lg italic",
+                className: "font-serif-display text-sm mt-2",
                 children: "6th July 2026",
               }),
               w.jsx("p", {
-                className:
-                  "mt-3 font-cinzel text-xs tracking-widest text-cream/70",
-                children: "#RAJSHIVANI",
-                children: w.jsx("span", {
-                  className: "ml-1 text-gold-soft/70",
-                  children: "Made with love By Siddharth",
-                }),
+                className: "font-serif-display text-lg italic",
+                children: "Made with love By Siddharth",
               }),
             ],
           }),

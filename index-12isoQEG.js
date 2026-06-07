@@ -18796,7 +18796,7 @@ Error generating stack: ` +
         description: "Grooms Baraat, full of music and Joy",
         day: "MON",
         date: "July 6, 2026",
-        time: "11:30 PM ",
+        time: "9:00 AM ",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
         dressCode: "Yellow florals — bright, breezy and traditional",
         icon: "🕺🏼",

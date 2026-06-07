@@ -17712,9 +17712,10 @@ Error generating stack: ` +
     abc = "./rajmahal-resort.png",
     ghodi = "./baraat.png",
     phere = "./phere-png.png",
-    sofa = "./withsofa.png",
-    cE = new Date("2026-07-06T00:00:00+05:30").getTime(),
-    hf = () => {
+    pqr = "./pqr.png";
+  ((sofa = "./withsofa.png"),
+    (cE = new Date("2026-07-06T00:00:00+05:30").getTime()),
+    (hf = () => {
       const e = Math.max(0, cE - Date.now());
       return {
         days: Math.floor(e / 864e5),
@@ -17722,8 +17723,8 @@ Error generating stack: ` +
         minutes: Math.floor((e / 6e4) % 60),
         seconds: Math.floor((e / 1e3) % 60),
       };
-    },
-    dE = () => {
+    }),
+    (dE = () => {
       const [e, t] = S.useState(hf());
       S.useEffect(() => {
         const r = setInterval(() => t(hf()), 1e3);
@@ -17764,8 +17765,8 @@ Error generating stack: ` +
           ),
         ),
       });
-    },
-    fE = ({
+    }),
+    (fE = ({
       title: e,
       description: t,
       day: n,
@@ -17905,7 +17906,7 @@ Error generating stack: ` +
           }),
         ],
       });
-    };
+    }));
   var wi = {};
   (function e(t, n, r, o) {
     var i = !!(
@@ -18798,7 +18799,7 @@ Error generating stack: ` +
         icon: "💍",
         bg: nE,
         dark: !0,
-        couple: phere,
+        couple: pqr,
       },
       {
         title: "Reception & Varmala",

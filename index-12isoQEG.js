@@ -18740,7 +18740,7 @@ Error generating stack: ` +
         date: "July 5, 2026",
         time: "02:30 PM onwards",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
-        dressCode: "Theme : Beige Color — light, earthy and festive",
+        dressCode: "Theme : Beige Color ⚪️ — light, earthy and festive",
         icon: "🌼",
         bg: tE,
         dark: !0,

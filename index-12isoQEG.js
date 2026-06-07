@@ -17900,7 +17900,7 @@ Error generating stack: ` +
                                           "span",
                                           {
                                             className:
-                                              "inline-block h-7 w-7 rounded-full mx-1 align-middle border border-white/60",
+                                              "inline-block h-5 w-5 rounded-full mx-1 align-middle border border-white/60",
                                             style: {
                                               backgroundColor: "#F5F5DC",
                                             },
